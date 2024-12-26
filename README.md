@@ -8,10 +8,13 @@ Features
 
 1️⃣ Dual Dataset Integration:
 
-Driver Monitoring Dataset: Tracks behaviors like drowsiness, phone usage, and seatbelt compliance.
+Driver Monitoring Dataset:
 
-Traffic Sign Dataset: Recognizes road signs such as speed limits and stop signs.
+9,884 images for detecting driver behaviors (e.g., drowsiness, phone usage, seatbelt compliance).
 
+Traffic Sign Dataset:
+
+4,977 images for recognizing road signs (e.g., speed limits, stop signs).
 
 2️⃣ YOLOv9 vs. YOLOv8 Comparison:
 
