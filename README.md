@@ -2,75 +2,58 @@
 
 Overview
 
-This project introduces a Real-Time Driver Monitoring and Traffic Sign Detection System, leveraging the state-of-the-art YOLOv9 object detection model. Designed to improve road safety, the system integrates real-time alerts via Text-to-Speech (TTS), making it both practical and innovative.
+This project showcases the development of a Traffic Safety System, leveraging the YOLOv9 model for advanced object detection. The system integrates two datasets to detect traffic signs and monitor driver behaviors, providing real-time feedback via voice alerts.
 
 Features
 
-Dual Dataset Integration
+1️⃣ Dual Dataset Integration:
 
-Driver Monitoring Dataset:
+Driver Monitoring Dataset: Tracks behaviors like drowsiness, phone usage, and seatbelt compliance.
 
-9,884 images for detecting driver behaviors (e.g., drowsiness, phone usage, seatbelt compliance).
-
-
-Traffic Sign Dataset:
-
-4,977 images for recognizing road signs (e.g., speed limits, stop signs).
+Traffic Sign Dataset: Recognizes road signs such as speed limits and stop signs.
 
 
+2️⃣ YOLOv9 vs. YOLOv8 Comparison:
 
-YOLOv9 vs. YOLOv8 Comparison
-
-Models: YOLOv9 and YOLOv8 were compared for speed, accuracy, and efficiency.
-
-Insights: YOLOv9 excelled in scenarios requiring detailed and complex detections.
+Conducted an in-depth analysis of speed, accuracy, and computational requirements between YOLOv9 and YOLOv8.
 
 
-Real-Time Capabilities
+3️⃣ Local Real-Time Implementation:
 
-Live Testing: The system was showcased in real-time during our presentation, detecting objects and providing voice alerts instantly.
-
-
-Text-to-Speech Integration
-
-Alerts drivers with real-time audio notifications, enhancing situational awareness.
+The system utilized local hardware for real-time demonstrations, enabling access to webcams and showcasing its capabilities during our graduation presentation.
 
 
-Google Colab Pro
+4️⃣ Google Colab Pro Utilization:
 
-The computational intensity of YOLOv9 necessitated Google Colab Pro, ensuring smooth training and execution.
-
-
-Getting Started
-
-Prerequisites
-
-Google Colab Pro
-
-Python 3.10
-
-Libraries: Ultralytics YOLO, Pyttsx3
-
-
-Setup
-
-1. Clone this repository.
-
-
-2. Load the datasets in YOLO format.
-
-
-3. Run the train.py script for model training.
-
-
-4. Use the real_time_detection.py script for real-time performance.
-
+Due to YOLOv9's intensive training demands (large parameters and high computational requirements), we used Google Colab Pro with TPU support. This significantly reduced training time and ensured smooth execution.
 
 
 Results
 
-The system achieved impressive results in both datasets with high precision and recall, making it a robust tool for traffic safety applications.
+🎯 Accurate Detection: Achieved high accuracy across both datasets.
+
+⚡ Real-Time Performance: Successfully demonstrated object detection live.
+
+🔊 Voice Feedback: Enhanced user experience with text-to-speech alerts.
+
+
+Getting Started
+
+1. Clone this repository.
+
+
+2. Prepare your datasets in YOLO format.
+
+
+3. Train the model using the provided scripts (train.py) on Google Colab Pro or another training platform.
+
+
+4. Test and run real-time detection using real_time_detection.py on local hardware.
+
+
 
 Acknowledgements
 
-Special thanks to our supervisors, mentors, and families for their unwavering support.
+Special thanks to our supervisors and teammates who contributed to this amazing journey. 🎓
+
+Feel free to explore the repository and reach out for any questions or feedback! 🚀
